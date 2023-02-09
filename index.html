@@ -12,35 +12,35 @@
       href="./assets/images/favicon-32x32.png"
     />
     <link rel="stylesheet" href="style.css" />
+    <script  defer src="script.js"></script>
     <title>Frontend Mentor | News homepage</title>
   </head>
   <body>
     <header>
       <figure class="nav-img">
-        <img src="./assets/images/icon-menu.svg" alt="open" />
+        <img src="./assets/images/icon-menu.svg" alt="open" id="menu" />
         <img src="./assets/images/logo.svg" alt="logo" />
       </figure>
 
-      <nav class="side-bar">
-        <img src="./assets/images/icon-menu-close.svg" alt="" />
+      <nav class="side-bar" id="side-bar">
+        <img src="./assets/images/icon-menu-close.svg" alt="close-icon" id="side-bar-close" />
         <ul>
-          <li>Home</li>
-          <li>New</li>
-          <li>Popular</li>
-          <li>Trending</li>
-          <li>Categories</li>
+          <li><a href="">Home</a></li>
+          <li><a href="">New</a></li>
+          <li><a href="">Popular</a></li>
+          <li><a href="">Trending</a></li>
+          <li><a href="">Categories</a></li>
         </ul>
       </nav>
-    </header>
-    <main>
       <section>
         <img
           src="./assets/images/image-web-3-mobile.jpg"
           alt="hero-image"
           widht="300"
           height="300"
+          class="hero-img"
         />
-
+  
         <div>The Bright Future of Web 3.0?</div>
         <div>
           We dive into the next evolution of the web that claims to put the
@@ -49,6 +49,10 @@
           <button>Read more</button>
         </div>
       </section>
+    </header>
+  
+    <main>
+      
       <section>
         <h1>New</h1>
         <div>
