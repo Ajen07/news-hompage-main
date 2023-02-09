@@ -16,6 +16,10 @@ ul {
     list-style-type: none;
 }
 
+body{
+    position: relative;
+}
+
 .hero-img {
     margin-inline: auto;
 }
@@ -35,17 +39,19 @@ ul {
 
 }
 .nav-sticky{
-    position:sticky;
+    position:fixed;
+    width: 100%;
     top: 0;
 }
-nav{
+/* nav{
     position: relative;
     padding-top: 1rem;
     padding-left: 1rem;
    
-}
+} */
 nav img{
     position: absolute;
+    top: 1rem;
     right: 1rem;
     width: 20px;
     height: 20px;
@@ -59,6 +65,7 @@ li{
     color: hsl(236, 13%, 42%);
     margin-top: 2rem;
     font-size: 1.1rem;
+    padding-left: 1rem;
 }
 nav a{
     text-decoration: none;
@@ -83,8 +90,9 @@ main section {
     padding-bottom: 2rem;
 }
 
-header {
-    height: 100vh;
+
+header section{
+    margin-top: 4rem;
 }
 
 .side-bar {
@@ -110,14 +118,14 @@ header {
     font-family: 'Inter', sans-serif;
     font-size: 2.1rem;
     font-weight: 900;
-    margin-top: 0.5rem;
+    margin-top: 1rem;
 }
 
 .hero-para {
     font-family: 'Outfit', sans-serif;
     color: hsl(236, 13%, 42%);
     font-weight: 300;
-    margin-bottom: 4.5rem;
+    margin-bottom: 2rem;
     text-align: justify;
     margin-top: 0.5rem;
 }
@@ -134,7 +142,6 @@ header {
     background-color: hsl(5, 85%, 63%);
     color: white;
     font-weight: 700;
-    margin-top: 1.5rem;
     margin-bottom: 1rem;
 }
 .hero-btn:hover,.hero-btn:focus{
