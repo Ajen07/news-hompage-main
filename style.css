@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.nav-img img:nth-child(2) {
+    width: 50px;
+    height: 20px;
+}
+
+.nav-img {
+    display: flex;
+    justify-content: space-between;
+}
+
+.side-bar {
+    position: absolute;
+    top: 0;
+    transform: translateX(-100%);
+
+}
+
+.show {
+    transform: translateX(0);
+    transition: transform 2s;
+    background-color: white;
+    height: 100vh;
+    width: 50%;
+}
