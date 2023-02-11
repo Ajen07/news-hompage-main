@@ -72,28 +72,24 @@ nav a{
     color: black;
 }
 
-section,
 footer {
     padding: 1rem;
 }
 
 main {
     padding-inline: 1rem;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    /* padding-top: 2rem;
+    padding-bottom: 2rem; */
 
 }
 
-main section {
+/* main section {
     height: fit-content;
     padding-top: 1rem;
     padding-bottom: 2rem;
-}
+} */
 
 
-header section{
-    margin-top: 4rem;
-}
 
 .side-bar {
     position: absolute;
@@ -155,6 +151,7 @@ header section{
     justify-content: space-evenly;
     background-color: black;
     color: white;
+    padding: 1rem;
 }
 
 .new-hd {
